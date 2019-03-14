@@ -1,0 +1,106 @@
+*, *::after, *::before {
+	box-sizing: border-box;
+}
+
+.header-container {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	align-items: center;
+	align-content: flex-start;
+}
+
+.nav-container {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	align-items: center;
+	align-content: flex-start;
+}
+
+.logotype{
+	font-weight: 900;
+	padding: 1rem;
+	margin: 0;
+	opacity: 1;
+	transition: opacity 0.25s;
+}
+
+.logotype:active, .logotype:hover, .logotype:focus {
+	opacity: 0.8;
+	transition: opacity 0.5s;
+}
+
+.logotype a {
+	color: #555;
+}
+
+.nav {
+	text-transform: lowercase;
+	font-weight: 600;
+}
+
+.nav a {
+	color: #555;
+	margin: 1rem;
+	border-color: white;
+}
+
+.nav a:active, .nav a:hover, .nav a:focus {
+	color: rgb(4, 33, 232);
+}
+
+body{
+	font-family: 'Noto Sans KR', sans-serif;
+}
+
+a {
+	text-decoration: none;
+}
+
+.header {
+	padding: 0.5rem;
+}
+
+.heading{
+	font-size: 2.5rem;
+	color: rgb(4, 33, 232);
+}
+
+.subheading{
+	font-weight: 600;
+	font-size: 1.5rem;
+	text-align: left;
+}
+
+.title{
+	font-size: 1.1rem;
+}
+
+.subtitle{
+	font-size: 0.9rem;
+}
+
+p{
+	font-family: 'Quicksand', sans-serif;
+	line-height: 1.5;
+}
+
+.section {
+	display: flex;
+	flex-flow: wrap;
+	align-self: center;
+	/*justify-content: space-between;*/
+	justify-content: center;
+	margin-top: 2rem;
+}
+
+.box{
+	display: block;
+	flex-wrap: wrap;
+	justify-content: center;
+	flex-basis: 50rem;
+}
+
