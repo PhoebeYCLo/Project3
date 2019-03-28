@@ -66,7 +66,7 @@ a {
 
 .heading{
 	font-size: 2.5rem;
-	color: rgb(4, 33, 232);
+	/*color: rgb(4, 33, 232);*/
 }
 
 .subheading{
@@ -132,7 +132,7 @@ p{
 }
 
 .nmg{
-	background-color: #e57aab;
+	background-color: #252932;
 	color: #fff;
 }
 
@@ -191,14 +191,28 @@ p{
 	}
 }
 
-.footer {
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  left: 0;
+.color-box{
+	width: 100px;
+	height: 100px;
+	display: inline-block;
 }
 
-/*.footer-item{
-	display: flex;
+.box1{
+	background-color: #252932;
+}
+
+.box2{
+	background-color: #c41e20;
+}
+
+.footer {
+  	position: absolute;
+  	right: 0;
+  	bottom: 0;
+ 	left: 0;
+}
+
+.footer-item{
+	display: inline-block;
 	flex-direction: row;
-}*/
+}
