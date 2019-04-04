@@ -6,6 +6,7 @@
 	<link rel="stylesheet" type="text/css" href="css/main.css">
 	<link href="css/normalize.css" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Noto+Sans+KR|Quicksand" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 	<title>Phoebe Lo</title>
 </head>
 <body>
@@ -13,7 +14,7 @@
 		<div class="header-container">
 			<div class="header-items">
 				<h1 class="logotype">
-					<a href="home.html">Phoebe Lo</a>
+					<a href="work.html">Phoebe Lo</a>
 				</h1>
 			</div>
 			<div class="header-items">
@@ -35,14 +36,124 @@
 			<div class="box">
 					<h2 class="heading">Style Guide</h2>
 				<div class="text-elements">
-					<h3 class="subheading">Text Elements</h3>
-						<h4 class="title">Headings</h4>
-							<h5 class="subtitle">Element:</h5>
-								<h2 class="heading">Heading</h2>
-								<h3 class="subheading">Subheading</h3>
-						<h4 class="title">Paragraph</h4>
-							<h5 class="subtitle">Element:</h5>
-								<p class="text">New Media Gallery is the New Westminster civic gallery that focuses on new media art around the world. It is located in the Anvil Centre beside the new westminister’s skytrain station. There are 2 curators, and 7 technical supports. The gallery curates exhibitions, performances, workshops and STEAM education programs.</p>
+					<h3 class="subheading">Interactive Elements -</h3>
+						<h4 class="title">IN-TEXT LINK</h4>
+							<h5 class="subtitle">Class:</h5>
+								<code class="class">.project-link</code>
+							<h5 class="subtitle">Code:</h5>
+							<code class="code">
+								&lt;a class="project-link" href="#"&gt;project-link&lt;/a&gt;
+							</code>
+							<h5 class="subtitle">Elements:</h5>
+							<p>
+								This is an <a class="project-link" href="#">project-link</a>.
+							</p>
+						
+						<h4 class="title">NAVIGATION LINK</h4>
+							<h5 class="subtitle">Class:</h5>
+								<code class="class">.nav-items</code>
+							<h5 class="subtitle">Code:</h5>
+							<code class="code">
+								&lt;a class="nav-items" href="#"&gt;nav-items&lt;/a&gt;
+							</code>
+							<h5 class="subtitle">Elements:</h5>
+							<div class="nav-items">
+								<a href="about.html">About</a>
+							</div>	
+
+						<h4 class="title">BUTTON</h4>
+							<h5 class="subtitle">Class:</h5>
+							<code class="class">.index-button .material-icons</code>
+							<h5 class="subtitle">Code:</h5>
+							<code class="code">
+								&lt;div class="index-button"&gt;<br>
+								&lt;i class="material-icons"&gt;arrow_upward&lt;/i&gt;<br>
+								&lt;/div&gt;
+							</code>
+							<h5 class="subtitle">Elements:</h5>
+								<div class="index-button">
+									<a href="#">
+										<i class="material-icons">arrow_upward</i>
+									</a>
+								</div>
+
+						<h4 class="title">IMAGE LINK</h4>
+							<h5 class="subtitle">Class:</h5>
+							<code class="class">
+							.project-item .image-link-container .image-link</code>
+							<h5 class="subtitle">Code:</h5>
+							<code class="code">
+								&lt;div class="project-item"&gt;<br>
+								&lt;a href=""&gt;<br>
+								&lt;figure class="project"&gt;<br>
+								&lt;div class="image-link-container"&gt;<br>
+								&lt;/div&gt;<br>
+								&lt;/figure&gt;<br>
+								&lt;/div&gt;<br>
+							<h5 class="subtitle">Elements:</h5>
+							<div class="project-container">
+								<div class="project-item">
+									<a href="nmgguidebot.html">
+										<figure class="project">
+											<div class="image-link-container">
+												<img src="img/guitebotimg.jpg" alt="NMG GuideBot" class="image-link">
+											</div>
+											<figcaption class="project-info">
+												<p class="project-category">UX Design / User Research</p>
+												<p class="project-name">NMG GUIDEBOT</p>
+											</figcaption>
+										</figure>
+									</a>
+								</div>
+							</div>
+				</div>
+
+				<div class="text-style">
+					<h3 class="subheading">Text elements -</h3>
+					<h4 class="title">Heading</h4>
+					<h5 class="subtitle">Class:</h5>
+							<code class="class">.logotype .heading .subheading .title .subtitle</code>
+							<h5 class="subtitle">Code:</h5>
+							<code class="code">
+								&lt;h1 class="logotype"&gt;logo&lt;/h1&gt;<br>
+								&lt;h2 class="heading"&gt;heading&lt;/h2&gt;<br>
+								&lt;h3 class="subheading"&gt;subheading&lt;/h3&gt;<br>
+								&lt;h4 class="title"&gt;title&lt;/h4&gt;<br>
+								&lt;h5 class="subtitle"&gt;subtitle&lt;/h5&gt;
+							<h5 class="subtitle">Elements:</h5>
+								<h1 class="logotype">logo</h1>
+								<h2 class="heading">heading</h2>
+								<h3 class="subheading">subheading</h3>
+								<h4 class="title">title</h4>
+								<h5 class="subtitle">subtitle</h5>
+
+					<h4 class="title">Paragraph</h4>
+					<h5 class="subtitle">Class:</h5>
+					<code class="class">p</code>
+					<h5 class="subtitle">Code:</h5>
+							<code class="code">
+								&lt;p&gt;This is a user research project within a design research course where the focus was learning ethnographic research methods. We had the opportunity to work with the New Media Gallery, to research their work environment and find out an issue that we can solve through design.&lt;/p&gt;
+							<h5 class="subtitle">Elements:</h5>
+							<p>This is a user research project within a design research course where the focus was learning ethnographic research methods. We had the opportunity to work with the New Media Gallery, to research their work environment and find out an issue that we can solve through design.</p>
+
+					<h4 class="title">Unorder list</h4>
+					<h5 class="subtitle">Class:</h5>
+					<code class="class">.unorderlist .listitem</code>
+					<h5 class="subtitle">Code:</h5>
+							<code class="code">
+								&lt;ul class="unorderlist"&gt;<br>
+								&lt;li class="listitem"&gt;list item 1&lt;/li&gt;<br>
+								&lt;li class="listitem"&gt;list item 2&lt;/li&gt;<br>
+								&lt;li class="listitem"&gt;list item 3&lt;/li&gt;<br>
+								&lt;/ul&gt;
+							<h5 class="subtitle">Elements:</h5>
+							<ul class="unorderlist">
+						<li class="listitem">Increase public engagement</li>
+						<li class="listitem">Educate about new media art</li>
+						<li class="listitem">Strengthen the connection with New Media Gallery</li>
+						<li class="listitem">Supports their marketing by word of mouth</li>
+					</ul>
+
 				</div>
 				
 				<div class="nav-elements">
@@ -67,13 +178,62 @@
 						</div>
 					</div>
 				</div>
+
 				<div class="brand">
 					<h3 class="subheading">Brand Identity</h3>
+					<h4 class="title">Color:</h4>
 					<div class="color-box box1">#252932</div>
 					<div class="color-box box2">#c41e20</div>
+					<div class="color-box box3">#555</div>
+
+					<h4 class="title">Typography:</h4>
+					<div class="font-noto">
+						<div class="font-name">Noto Sans KR</div>
+						<div class="character">
+							ABCDEFGHIJKLMNOPQRSTUVWXYZ<br>
+							abcdefghijklmnopqrstuvwxyz
+						</div>
+					</div>
+					
+					<br>
+
+					<div class="font-quicksand">
+						<div class="font-name">Quicksand</div>
+						<div class="character">
+							ABCDEFGHIJKLMNOPQRSTUVWXYZ<br>
+							abcdefghijklmnopqrstuvwxyz
+						</div>
+					</div>
+				</div>
+
+				<div class="cita" id="citations">
+					<h4 class="title">Citations:</h4>
+					<ul class="unorderlist">
+						<li class="listitem">Google. Noto Sans KR[Font] Retrieved from <a href="https://fonts.google.com/specimen/Noto+Sans+KR" target="_blank">https://fonts.google.com/specimen/Noto+Sans+KR</a></li>
+						<li class="listitem">Paglinawan, Andrew. Quicksand[Font] Retrieved from <a href="https://fonts.google.com/specimen/Quicksand" target="_blank">https://fonts.google.com/specimen/Quicksand</a></li>
+						<li class="listitem">Google. Material Icons. Retrieved from <a href="https://material.io/tools/icons/?style=baseline">https://material.io/tools/icons/?style=baseline</a></li>
+					</ul>
 				</div>
 			</div>
 		</section>
 	</main>
+	<footer class="footer">
+		<div class="footer-container">
+			<div class="footer-item copyright">
+				© 2019 Phoebe Lo
+			</div>
+			<div class="footer-item">
+				<a href="index.html" class="footer-link">style guide</a>
+			</div>
+			
+			<div class="footer-item">
+				<a href="index.html#citations" class="footer-link">citations</a>
+			</div>
+			
+			<div class="footer-item">
+				<a href="https://github.com/PhoebeYCLo/Project3" class="footer-link" target="_blank">github</a>
+			</div>
+		</div>
+	</footer>
 </body>
 </html>

@@ -55,6 +55,28 @@
 	transition: opacity 0.5s;
 }
 
+/*work page*/
+.project-container{
+	display: inline-block;
+	overflow: hidden;
+	margin: 1rem;
+	position: relative;
+}
+
+.image-link{
+	display: block;
+	width: 100%;
+}
+
+.project{
+	text-align: center;
+}
+
+.project:active .image-link, .project:hover .image-link, .project:focus .image-link{
+	opacity: 0.5;
+	transition: opacity 0.5s;
+}
+
 /*body*/
 body{
 	font-family: 'Noto Sans KR', sans-serif;
@@ -143,6 +165,14 @@ p{
 	font-family: 'Quicksand', sans-serif;
 	line-height: 1.8;
 	font-weight: 500;
+}
+
+.font-noto{
+	font-family: 'Noto Sans KR', sans-serif;
+}
+
+.font-quicksand{
+	font-family: 'Quicksand', sans-serif;
 }
 
 .section {
@@ -260,6 +290,11 @@ p{
 	color: #555;
 }
 
+.project-link:active, .project-link:hover, .project-link:focus{
+	opacity: 0.5;
+	transition: 0.5s;
+}
+
 .more-project a:active, .more-project a:hover, .more-project a:focus{
 	opacity: 0.5;
 	transition: 0.5s;
@@ -267,6 +302,11 @@ p{
 
 #current-project{
 	color: black;
+}
+
+/*unorderlist*/
+.listitem{
+	margin: 0.5rem 0rem;
 }
 
 /*figure*/
@@ -288,9 +328,14 @@ p{
 	background-color: #c41e20;
 }
 
+.box3{
+	background-color: #555;
+}
+
 /*footer*/
 .footer{
-	width: 70%;
+	/*position: absolute;*/
+	width: 50%;
 	margin: 1.5rem auto;
 	padding: 0.8rem;
 }
