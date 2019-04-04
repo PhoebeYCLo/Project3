@@ -191,6 +191,17 @@ p{
 	}
 }
 
+.image-container{
+	display: inline-block;
+	overflow: hidden;
+	margin: 1rem;
+	position: relative;
+}
+
+.projectimage{
+	width: 100%;
+}
+
 .color-box{
 	width: 100px;
 	height: 100px;
